@@ -4,9 +4,19 @@
     padding: 0;
     list-style-type: none;
     background-color: hsl(228, 100%, 60%);
+    color: hsl(0, 0%, 100%)
+;
 }
 
 /* COMMON STYLE */
+header, article{
+    border-block-end: 0.5px solid rgb(255, 255, 255, 0.2);
+}
 .pad20{
     padding: 20px;
+}
+
+.flex-space-between{
+    display: flex;
+    justify-content: space-between;
 }
