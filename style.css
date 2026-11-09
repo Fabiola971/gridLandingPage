@@ -4,14 +4,18 @@
     padding: 0;
     list-style-type: none;
     background-color: hsl(228, 100%, 60%);
-    color: hsl(0, 0%, 100%)
-;
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
 /* COMMON STYLE */
 header, article{
     border-block-end: 0.5px solid rgb(255, 255, 255, 0.2);
 }
+
 .pad20{
     padding: 20px;
 }
@@ -19,4 +23,48 @@ header, article{
 .flex-space-between{
     display: flex;
     justify-content: space-between;
+}
+
+.flex-space-between li:last-of-type{
+    font-size: 2rem;
+}
+
+.grid{
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+}
+
+.description li:first-of-type{
+    font-weight: 500;
+}
+
+.description li:last-of-type, footer{
+    /* font-size 14px */
+    font-size: 0.88rem; 
+}
+
+.description li:last-of-type{
+    font-weight: 400;
+    color:  hsl(224, 100%, 95%, 0.9);
+    letter-spacing: -0.7px;
+}
+
+nav, p{
+    /* font-size 17px */
+    font-size: 1.065rem;
+}
+
+/* ARTICLE GRID ONE */
+h1{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.grid-one{
+    padding: 50px 50px 50px 20px;
+}
+
+.inner-box-grid-one p{
+    color:  hsl(224, 100%, 95%, 0.9);
 }
