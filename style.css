@@ -13,7 +13,7 @@
 
 /* COMMON STYLE */
 header, article{
-    border-block-end: 0.5px solid rgb(255, 255, 255, 0.2);
+    border-block-end: 1px solid rgb(255, 255, 255, 0.4);
 }
 
 .pad20{
@@ -23,6 +23,7 @@ header, article{
 .flex-space-between{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .flex-space-between li:last-of-type{
@@ -33,6 +34,10 @@ header, article{
     display: flex;
     flex-direction: column;
     gap: 200px;
+}
+
+.description, footer{
+    line-height: 1.5;
 }
 
 .description li:first-of-type{
@@ -46,7 +51,7 @@ header, article{
 
 .description li:last-of-type{
     font-weight: 400;
-    color:  hsl(224, 100%, 95%, 0.9);
+    color:  hsl(224, 100%, 95%, 0.8);
     letter-spacing: -0.7px;
 }
 
@@ -59,12 +64,14 @@ nav, p{
 h1{
     font-size: 2.5rem;
     font-weight: 400;
+    margin-block-end: 30px;
 }
 
 .grid-one{
-    padding: 50px 50px 50px 20px;
+    padding: 55px 50px 55px 20px;
 }
 
 .inner-box-grid-one p{
-    color:  hsl(224, 100%, 95%, 0.9);
+    color:  hsl(224, 100%, 95%, 0.8);
+    line-height: 1.8;
 }
